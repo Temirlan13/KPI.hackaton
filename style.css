@@ -1,12 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.btn {
+  background-color: yellow;
+}
+
+.send {
+  background-color: yellow;
+}
+.save {
+  background-color: lime;
+}
+
+.btn-delete {
+  background-color: yellow;
+}
+
+.btn-edit {
+  background-color: yellow;
+}
+
 .todo-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: space-around; */
   margin: 0 auto;
   width: 350px;
   height: 450px;
-  background-color: rgb(245, 151, 151);
+  background-color: gold;
 }
 
 input {
