@@ -59,11 +59,11 @@ btn.addEventListener("click", function () {
 let page = 1;
 async function getTodoList() {
   let allTodos = await fetch(API)
-    .then(res => res.json())
-    .catch(err => console.log(error));
+    .then((res) => res.json())
+    .catch((err) => console.log(error));
   // console.log(allTodos);
 
-  allTodos.forEach(element => {
+  allTodos.forEach((element) => {
     let div = document.createElement("div");
     div.id = element.id;
     div.style.border = "1px solid black";
@@ -126,8 +126,8 @@ document.addEventListener("click", async function (e) {
     console.log(id);
 
     let response = await fetch(`${API}/${id}`)
-      .then(res => res.json())
-      .catch(err => console.log(error));
+      .then((res) => res.json())
+      .catch((err) => console.log(error));
     console.log(response);
 
     inpName.value = response.name;
@@ -136,5 +136,3 @@ document.addEventListener("click", async function (e) {
     disabl.value = response.id;
   }
 });
-
-// djjddj

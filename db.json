@@ -1,10 +1,16 @@
 {
   "todo": [
     {
-      "name": "alihan",
-      "inpFirst": "alihan",
-      "inpPhone": "111",
+      "name": "Temirlan",
+      "inpFirst": "Turgumbekov",
+      "inpPhone": "0700922661",
       "id": 1
+    },
+    {
+      "name": "Yasin",
+      "inpFirst": "Vasipov",
+      "inpPhone": "0999090909",
+      "id": 2
     }
   ]
 }
